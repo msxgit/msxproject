@@ -18,6 +18,6 @@ public class NeedleTachometer : MonoBehaviour
         float ThisTopSpeed = GameObject.Find("Player").GetComponent<Player>().TOP_SPEED;
         float rpmRatio = (Mathf.Abs(ThisSpeed) / ThisTopSpeed);
         m_RectTransform = gameObject.GetComponent<RectTransform>();
-        m_RectTransform.localRotation = Quaternion.Euler(0, 0, (rpmRatio*-200)+5);
+        m_RectTransform.localRotation = Quaternion.Euler(0, 0, (rpmRatio*-225)+120);
     }
 }

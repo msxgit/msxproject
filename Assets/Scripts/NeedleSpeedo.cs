@@ -17,6 +17,6 @@ public class NeedleSpeedo : MonoBehaviour
         float ThisSpeed = GameObject.Find("Player").GetComponent<Player>().SPEED;
         float ThisMaxTopSpeed = GameObject.Find("Player").GetComponent<Player>().HIGHEST_TOP_SPEED;
         m_RectTransform = gameObject.GetComponent<RectTransform>();
-        m_RectTransform.localRotation = Quaternion.Euler(0, 0, ((Mathf.Abs(ThisSpeed)/ThisMaxTopSpeed) * -190) + 15);
+        m_RectTransform.localRotation = Quaternion.Euler(0, 0, ((Mathf.Abs(ThisSpeed)/ThisMaxTopSpeed) * -201) + 34);
     }
 }
